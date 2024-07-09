@@ -1,0 +1,128 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environment
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Jupyter Notebook metadata
+*.ipynb-archive
+
+# Python package files
+*.egg
+*.egg-info/
+*.eggs/
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+.pytest_cache/*
+
+# Cython debug symbols
+cython_debug/
+
+# Translations
+*.mo
+*.pot
+
+# Docs
+docs/_build/
+*.log
+*.out
+
+# Environment Variables
+.env
+.env.local
+*.env.*
+*.envrc
+
+# Data files
+*.csv
+*.tsv
+*.hdf5
+*.h5
+*.db
+
+# Log files
+*.log
+
+# macOS-specific files
+.DS_Store
+
+# Windows-specific files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# TensorFlow checkpoint files
+*.ckpt
+*.ckpt.meta
+
+
+# TensorBoard log files
+logs/
+events.out.tfevents.*
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+.vscode/*
+
+# Anaconda
+*.conda
+*.ipynb_checkpoints
+*.nb.html
+*.nb.sagews
+
+# Jupyter Notebook
+*.ipynb_checkpoints
+*.sagemaker/
+*.sagemaker-studio
+
+
+# Ignore PlantVillage directory within training
+training/PlantVillage/
